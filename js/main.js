@@ -69,7 +69,7 @@ function renderProducts(arr) {
   /*
    *Renderiza el card de los productos
    */
-  for (product of productList) {
+  for (product of arr) {
     const productCard = document.createElement("div");
     productCard.classList.add("product-card");
 
